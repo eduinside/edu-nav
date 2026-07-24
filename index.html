@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 수업도구 내비게이션</title>
+  <meta name="description" content="초·중·고 교사를 위한 AI 기반 학습도구 모음. 분야·대상·교과·요금·연령제한으로 필터링하세요." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/brand/favicon-16.png" />
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/assets/brand/favicon.ico" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a id="home-logo" class="brand-lockup" href="/" aria-label="AI 수업도구 홈으로 이동">
+        <img class="brand-mark" src="/assets/brand/compass-mark.png" width="32" height="32" alt="" aria-hidden="true" />
+        <h1>AI 수업도구 내비게이션</h1>
+      </a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="landing" class="landing" aria-labelledby="landing-title">
+      <div class="landing-hero">
+      <div class="landing-intro">
+        <p class="landing-kicker">AI로 수업을 준비할 때</p>
+        <h2 id="landing-title">어떤 도구를 찾고 계신가요?</h2>
+        <label class="landing-search" for="landing-search">
+          <span class="sr-only">도구 검색</span>
+          <input id="landing-search" type="search" placeholder="도구 이름이나 수업 키워드로 바로 찾기" autocomplete="off" />
+          <span aria-hidden="true">⌕</span>
+        </label>
+      </div>
+      <aside class="landing-aside" aria-label="사이트 수록 정보">
+        <div class="aside-icon"><i data-lucide="library-big" aria-hidden="true"></i></div>
+        <p>CURATED FOR CLASSROOM</p>
+        <strong><span id="landing-count">80</span>개의 수업 도구</strong>
+        <span>12개 분야 · 연령·요금·도입 조건 확인</span>
+        <i class="aside-spark" data-lucide="sparkles" aria-hidden="true"></i>
+      </aside>
+      </div>
+      <div class="landing-guide" aria-label="이용 방법">
+        <span><i data-lucide="compass" aria-hidden="true"></i>01 분야 선택</span>
+        <span><i data-lucide="map-pin" aria-hidden="true"></i>02 조건 좁히기</span>
+        <span><i data-lucide="route" aria-hidden="true"></i>03 도구 비교</span>
+      </div>
+      <div class="landing-meta" aria-label="사이트 기본 정보">
+        <button id="help-open" class="meta-card" type="button">
+          <i data-lucide="circle-help" aria-hidden="true"></i>
+          <span><strong>도움말</strong><small>이 사이트를 활용하는 방법</small></span>
+          <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+        </button>
+        <div class="meta-card">
+          <i data-lucide="calendar-days" aria-hidden="true"></i>
+          <span><strong>최근 업데이트</strong><small id="last-updated">확인 중</small></span>
+        </div>
+        <div class="meta-card">
+          <i data-lucide="shield-check" aria-hidden="true"></i>
+          <span><strong>검증 기준</strong><small>공식 출처와 학교 적용 조건</small></span>
+        </div>
+      </div>
+      <div id="landing-categories" class="landing-categories" aria-label="수업 도구 분야"></div>
+    </section>
+
+    <section id="catalog" hidden aria-label="도구 목록">
+    <div class="toolbar">
+      <div class="search">
+        <input id="search" type="search" placeholder="도구 이름·설명 검색 (예: 수학, 퀴즈, 챗봇)" autocomplete="off" aria-label="검색" />
+      </div>
+      <div class="toolbar-right">
+        <label class="sort-label" for="sort">정렬</label>
+        <select id="sort" aria-label="정렬 기준">
+          <option value="name">이름순</option>
+          <option value="category">분야순</option>
+          <option value="free">무료 우선</option>
+        </select>
+        <span id="result-count" class="count">—</span>
+        <span id="category-menu-wrap" class="category-menu-wrap">
+          <button id="home" class="btn-reset" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="category-menu"><i data-lucide="layout-grid" aria-hidden="true"></i>분류 다시 고르기<i data-lucide="chevron-down" aria-hidden="true"></i></button>
+          <div id="category-menu" class="category-menu" role="menu" aria-label="분야 선택"></div>
+        </span>
+        <button id="compare-mode" class="btn-reset" type="button" aria-pressed="false"><i data-lucide="list-checks" aria-hidden="true"></i>비교 선택</button>
+        <button id="compare-open" class="btn-reset" type="button" disabled aria-haspopup="dialog"><i data-lucide="columns-3" aria-hidden="true"></i>비교하기 (0/4)</button>
+        <button id="share" class="btn-reset" type="button"><i data-lucide="link-2" aria-hidden="true"></i>필터 링크 복사</button>
+      </div>
+    </div>
+
+    <div class="layout">
+      <aside class="filters" id="filters" aria-label="필터">
+        <details class="filter-drawer">
+          <summary>
+            <span class="filter-summary-label"><i data-lucide="sliders-horizontal" aria-hidden="true"></i>필터와 학교 적용 조건</span>
+            <span class="filter-summary-action">필터 <i data-lucide="chevron-down" aria-hidden="true"></i></span>
+          </summary>
+          <div class="filter-content">
+        <!-- 카테고리 칩 -->
+        <section class="filter-group">
+          <h2>기능 분야</h2>
+          <div id="f-category" class="chips" role="group"></div>
+        </section>
+
+        <div class="filter-cols">
+          <section class="filter-group">
+            <h2>대상 학령</h2>
+            <div id="f-grades" class="checks"></div>
+          </section>
+          <section class="filter-group">
+            <h2>요금</h2>
+            <div id="f-pricing" class="checks"></div>
+          </section>
+        </div>
+
+        <div class="filter-cols">
+          <section class="filter-group">
+            <h2>활용 주체</h2>
+            <div id="f-user" class="checks"></div>
+          </section>
+          <section class="filter-group">
+            <h2>연령제한</h2>
+            <div id="f-age" class="checks"></div>
+          </section>
+        </div>
+
+        <section class="filter-group">
+          <h2>교과</h2>
+          <div id="f-subjects" class="checks checks-wrap"></div>
+        </section>
+
+        <section class="filter-group lesson-filter">
+          <h2>수업 단계</h2>
+          <div id="f-lessonStages" class="checks checks-wrap"></div>
+          <p class="filter-note">심층 조사된 도구의 수업 활용 단계를 기준으로 합니다.</p>
+        </section>
+
+        <section class="filter-group decision-filter">
+          <h2>학교 적용 판단</h2>
+          <div id="f-readiness" class="checks checks-wrap"></div>
+          <p class="filter-note">심층 조사된 도구의 공식 근거·계정·안전 조건을 바탕으로 한 판단입니다.</p>
+        </section>
+
+        <section class="filter-group toggles">
+          <label class="toggle"><input type="checkbox" id="t-korean" /> 한국어 지원만</label>
+          <label class="toggle"><input type="checkbox" id="t-domestic" /> 국내 도입만</label>
+          <label class="toggle"><input type="checkbox" id="t-s2b" /> S2B 공개목록 확인</label>
+          <label class="toggle"><input type="checkbox" id="t-account" /> 학생 계정·참여 정보 확인</label>
+          <label class="toggle"><input type="checkbox" id="t-translation" /> 번역 정보 확인</label>
+          <label class="toggle"><input type="checkbox" id="t-voice" /> 음성 정보 확인</label>
+        </section>
+          </div>
+        </details>
+      </aside>
+
+      <section class="results" aria-live="polite">
+        <div id="cards" class="grid"></div>
+        <div id="empty" class="empty" hidden>
+          <p>조건에 맞는 도구가 없습니다.</p>
+          <button id="reset" class="btn-reset" type="button"><i data-lucide="rotate-ccw" aria-hidden="true"></i>조건 지우기</button>
+        </div>
+      </section>
+    </div>
+    </section>
+  </main>
+
+  <dialog id="detail" aria-labelledby="detail-title">
+    <button id="detail-close" class="detail-close" type="button" aria-label="닫기">✕</button>
+    <div id="detail-body"></div>
+  </dialog>
+
+  <dialog id="compare" aria-labelledby="compare-title">
+    <div class="compare-head">
+      <div>
+        <p class="eyebrow">학교 적용 조건 비교</p>
+        <h2 id="compare-title">선택한 도구 비교</h2>
+      </div>
+      <button id="compare-close" class="detail-close" type="button" aria-label="비교 닫기">✕</button>
+    </div>
+    <div id="compare-body"></div>
+    <div class="compare-actions">
+      <button id="compare-clear" class="btn-reset" type="button">선택 해제</button>
+    </div>
+  </dialog>
+  <dialog id="help" aria-labelledby="help-title">
+    <div class="help-head">
+      <div>
+        <p class="eyebrow">이용 안내</p>
+        <h2 id="help-title">AI 수업도구 활용법</h2>
+      </div>
+      <button id="help-close" class="detail-close" type="button" aria-label="도움말 닫기">✕</button>
+    </div>
+    <div class="help-body">
+      <ol>
+        <li><strong>분야를 선택하세요.</strong><span>수업 목적과 가까운 분야부터 목록을 엽니다.</span></li>
+        <li><strong>조건을 좁히세요.</strong><span>학령·교과·연령·학생 계정·한국어 조건을 확인합니다.</span></li>
+        <li><strong>상세와 비교를 확인하세요.</strong><span>도입 전 공식 페이지에서 최신 정책을 다시 확인하세요.</span></li>
+      </ol>
+      <p>학생 이름·성적·상담 내용 등 개인정보를 외부 AI 도구에 입력하지 마세요.</p>
+    </div>
+  </dialog>
+  <p id="compare-status" class="sr-only" aria-live="polite"></p>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <a class="survey-fab" href="https://dgedu.link/nav-form" target="_blank" rel="noopener noreferrer" aria-label="의견 보내기 설문">
+    <i data-lucide="message-square-plus" aria-hidden="true"></i>
+    <span class="survey-fab__tip">의견 보내기</span>
+  </a>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>데이터 출처: edzip(에듀집), 에듀테크몰, 한국디지털교육협회 AI 코스웨어 목록, KERIS/EBS 및 각 서비스 공식 자료.
+        <br />연령제한·요금 등 안전 정보는 서비스 정책 변동이 잦으므로 <strong>실제 도입 전 공식 페이지에서 재확인</strong>하세요.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.js"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

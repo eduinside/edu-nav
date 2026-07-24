@@ -1,0 +1,162 @@
+[
+  {
+    "id": "chatgpt",
+    "provider": "OpenAI",
+    "edition": "일반 무료·유료 플랜과 미국 K-12 교직원 대상 ChatGPT for Teachers를 구분해 확인",
+    "secondary_categories": ["교사 업무자동화", "리서치·자료정리", "이미지·그림", "코딩·SW교육"],
+    "lesson_stages": ["수업 준비", "개념 설명", "탐구·질문", "창작·표현", "평가·피드백"],
+    "ai_modes": ["텍스트·이미지·음성 생성", "검색", "파일 분석"],
+    "languages": { "interface": "50개 이상 인터페이스 언어; 한국어 포함", "generation_response": "한국어 입력·응답 가능", "translation": "대화형 번역 가능; 전용 지원 언어 목록은 별도 미공개", "voice": "한국어 음성 대화 가능; 전사 오류 가능", "korean_official": true, "korean_quality": "공식 지원·국내 현장검증 필요" },
+    "adoption": { "student_account": "학생 직접 활용 시 계정·연령·학교 정책 확인 필요", "pricing_detail": "일반 무료·유료 플랜; 교사용 워크스페이스의 국내 이용 가능성은 별도 확인", "platforms": ["웹", "모바일"], "integrations": ["파일 업로드", "웹 검색"], "difficulty": "입문" },
+    "safety": { "summary": "일반 개인 계정에 학생 개인정보를 입력하지 않도록 안내하고 생성 결과를 교사가 검토", "cautions": ["환각·편향 검토", "학생 개인정보 입력 금지"] },
+    "review": { "readiness": "조건부 활용", "reason": "범용성이 높지만 계정 유형과 학생 직접 사용 조건을 구분해야 함", "evidence_level": "E3", "status": "1차 조사 완료" },
+    "procurement": { "s2b_public_listing": "공개목록 확인", "products": [{ "estimate_code": "202407249162081", "name": "인공지능 챗봇 챗GPT 챗지피티 플러스", "url": "https://www.s2b.kr/Edutech/product/productDetail.do?estimatecode=202407249162081" }, { "estimate_code": "202411059874918", "name": "챗지피티 플러스 라이선스", "url": "https://www.s2b.kr/Edutech/product/productDetail.do?estimatecode=202411059874918" }] },
+    "source_ids": ["S001", "S002", "L001", "L002", "S031"]
+  },
+  {
+    "id": "gemini",
+    "provider": "Google",
+    "aliases": ["Gemini for Education"],
+    "edition": "일반 Gemini와 관리형 Google Workspace for Education 에디션의 계정·기능 조건을 구분",
+    "secondary_categories": ["교사 업무자동화", "리서치·자료정리", "이미지·그림"],
+    "lesson_stages": ["수업 준비", "탐구·질문", "창작·표현", "피드백"],
+    "ai_modes": ["텍스트·이미지 생성", "분석", "검색"],
+    "languages": { "interface": "웹 앱 40개 이상 언어; 한국어 포함", "generation_response": "한국어 텍스트·Gemini Live 입력·응답 가능", "translation": "대화형 번역 가능; 기능별 언어 차이 존재", "voice": "한국어 음성 입력 가능; 일부 음성·모바일 기능은 언어별 제한", "korean_official": true, "korean_quality": "공식 지원·교육 계정 현장검증 필요" },
+    "adoption": { "student_account": "관리형 Google Workspace for Education 계정 권장", "pricing_detail": "교육기관 기본 접근과 상위 유료 옵션이 공존; 기관 에디션별 확인 필요", "platforms": ["웹", "모바일"], "integrations": ["Google Workspace"], "difficulty": "입문" },
+    "safety": { "summary": "교육기관용 관리 환경과 엔터프라이즈급 데이터 보호를 안내", "cautions": ["기관 관리자 설정 확인", "학생 연령별 기능 차이 확인"] },
+    "review": { "readiness": "조건부 활용", "reason": "학교 계정 관리 여부와 에디션별 기능 차이를 먼저 확인해야 함", "evidence_level": "E2", "status": "1차 조사 완료" },
+    "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] },
+    "source_ids": ["S003", "L003", "S031"]
+  },
+  {
+    "id": "notebooklm",
+    "provider": "Google",
+    "edition": "소비자 계정과 Workspace for Education 계정의 연령·한도·데이터 처리 조건을 구분",
+    "secondary_categories": ["AI 튜터·챗봇", "글쓰기·작문", "평가·퀴즈·피드백"],
+    "lesson_stages": ["자료조사", "개념 설명", "복습", "평가 준비"],
+    "ai_modes": ["출처 기반 질의응답", "요약", "오디오·영상 개요", "마인드맵", "퀴즈"],
+    "languages": { "interface": "브라우저 80개 이상 언어; 한국어 포함", "generation_response": "채팅·학습 가이드·문서·오디오 개요를 한국어로 출력 가능", "translation": "출력 언어 변경 지원", "voice": "한국어 오디오 입력 지원; 오디오 개요도 선택 출력 언어 적용", "korean_official": true, "korean_quality": "공식 지원·과목별 용어 정확성 검증 필요" },
+    "adoption": { "student_account": "Workspace for Education에서는 모든 연령 사용 가능하다고 공식 도움말에 안내", "pricing_detail": "표준 접근과 상위 한도 플랜이 공존; 학교 에디션별 차이", "platforms": ["웹", "모바일 앱"], "integrations": ["PDF", "웹", "YouTube", "오디오", "Google Docs·Slides"], "difficulty": "입문" },
+    "safety": { "summary": "교육용 핵심 서비스에서 업로드·채팅·출력을 모델 개선에 사용하지 않는다고 안내", "cautions": ["공유 노트북에 저작권 자료·학생 개인정보 업로드 전 학교 지침 확인"] },
+    "review": { "readiness": "추천", "reason": "출처 기반 응답과 교육용 계정 보호가 명확하나 자료 선별은 교사가 담당해야 함", "evidence_level": "E3", "status": "1차 조사 완료" },
+    "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] },
+    "source_ids": ["S007", "S008", "L006", "S031"]
+  },
+  {
+    "id": "canva",
+    "provider": "Canva",
+    "aliases": ["Canva Education", "Canva for Education"],
+    "edition": "일반 Canva와 인증 K-12 교사·학생 대상 Canva for Education의 무료·관리 조건을 구분",
+    "secondary_categories": ["이미지·그림", "영상", "교사 업무자동화", "평가·퀴즈·피드백"],
+    "lesson_stages": ["수업 준비", "창작·표현", "협업", "결과 공유"],
+    "ai_modes": ["텍스트·이미지·디자인·음성 생성", "코드 기반 인터랙티브 콘텐츠"],
+    "languages": { "interface": "한국어 인터페이스 제공", "generation_response": "Canva AI가 한국어를 포함한 16개 언어 지원", "translation": "문서·디자인 자동 번역 134개 언어 안내", "voice": "Canva AI 음성 프롬프트 가능; AI Voice 언어별 범위는 별도 확인", "korean_official": true, "korean_quality": "공식 AI 지원·템플릿 내 한국어 글꼴·레이아웃 검증 필요" },
+    "adoption": { "student_account": "교사가 학급에 초대하거나 학교 계정으로 운영 가능", "pricing_detail": "검증된 K-12 교사와 학생에게 Canva Education 무료", "platforms": ["웹", "모바일", "데스크톱"], "integrations": ["LMS", "Google Classroom"], "difficulty": "입문" },
+    "safety": { "summary": "교육용 프라이버시 기능과 관리자 제어를 제공하며 학생 AI 기능은 기본 비활성화 후 관리자가 설정하는 구조", "cautions": ["AI 생성 이미지·문구의 저작권과 사실성 검토"] },
+    "review": { "readiness": "추천", "reason": "K-12 교육용 무료 플랜과 학급 운영 기능이 명확함", "evidence_level": "E3", "status": "1차 조사 완료" },
+    "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] },
+    "source_ids": ["S009", "S010", "L008", "L009", "S031"]
+  },
+  {
+    "id": "magicschool",
+    "provider": "Magic School",
+    "aliases": ["MagicSchool", "MagicStudent"],
+    "edition": "교사 무료 플랜, 개인 Plus, 기관 Enterprise와 학생 참여 기능을 구분",
+    "secondary_categories": ["평가·퀴즈·피드백", "글쓰기·작문", "코스웨어·LMS"],
+    "lesson_stages": ["수업 준비", "자료 제작", "평가", "피드백"],
+    "ai_modes": ["수업안·활동지·퀴즈·피드백 생성", "학생용 제한형 AI 공간"],
+    "languages": { "interface": "24개 인터페이스 언어; 한국어 포함", "generation_response": "다국어 콘텐츠 생성 지원", "translation": "98개 언어 번역; 한국어 포함", "voice": "도구별 확인 필요", "korean_official": true, "korean_quality": "공식 지원·국내 교육과정 용어 검증 필요" },
+    "adoption": { "student_account": "Student Rooms를 교사가 구성·공유", "pricing_detail": "교사 무료 플랜, 개인 Plus, 기관 Enterprise", "platforms": ["웹", "브라우저 확장"], "integrations": ["기관·플랜별 상이"], "difficulty": "입문" },
+    "safety": { "summary": "FERPA·COPPA·GDPR·SOC 2 준수와 PII·편향·사실 오류 경고 기능을 안내", "cautions": ["미국 교육 기준 중심 출력", "한국어 품질의 국내 수업 검수"] },
+    "review": { "readiness": "조건부 활용", "reason": "교육 특화 기능은 강하지만 국내 기준·언어·기관 약관 검토가 필요", "evidence_level": "E3", "status": "1차 조사 완료" },
+    "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] },
+    "source_ids": ["S013", "S014", "L011", "S031"]
+  },
+  {
+    "id": "kahoot",
+    "provider": "Kahoot!",
+    "edition": "기본 무료와 학교 유료 플랜의 AI 기능·참여 인원 조건을 구분",
+    "secondary_categories": ["코스웨어·LMS"],
+    "lesson_stages": ["동기유발", "연습", "형성평가", "복습"],
+    "ai_modes": ["주제·URL·문서 기반 퀴즈·수업·이미지 생성"],
+    "languages": { "interface": "웹 플랫폼 21개 언어; 한국어 포함", "generation_response": "문제·답변은 다양한 언어로 작성 가능; AI 생성 언어는 플랜·기능별 확인", "translation": "콘텐츠 언어 설정·검색 필터 제공; 자동 번역 범위는 기능별 상이", "voice": "텍스트 읽어주기와 언어 학습 오디오 제공; 한국어 세부 품질 확인", "korean_official": true, "korean_quality": "공식 인터페이스 지원·AI 문항 한국어 품질 검증 필요" },
+    "adoption": { "student_account": "실시간 참여는 코드 방식 가능; 개인 학습·패스는 플랜별 상이", "pricing_detail": "기본 무료와 여러 학교 유료 플랜; AI 기능 범위는 플랜별 상이", "platforms": ["웹", "모바일"], "integrations": ["슬라이드", "PDF", "URL"], "difficulty": "입문" },
+    "safety": { "summary": "학생 참여 구조가 익숙하나 AI 생성 문항은 부정확하거나 편향될 수 있다고 공식 도움말이 경고", "cautions": ["AI 생성 정답·난이도 교사 검수", "유료 기능 혼동 주의"] },
+    "review": { "readiness": "조건부 활용", "reason": "활용성이 높지만 AI 생성 기능과 참여 인원 제한이 플랜별로 다름", "evidence_level": "E3", "status": "1차 조사 완료" },
+    "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] },
+    "source_ids": ["S019", "S020", "L014", "S031"]
+  },
+  {
+    "id": "claude", "provider": "Anthropic", "edition": "일반 플랜과 대학 중심 Claude for Education의 적용 범위를 구분", "aliases": ["Claude for Education"],
+    "secondary_categories": ["글쓰기·작문", "리서치·자료정리", "코딩·SW교육", "교사 업무자동화"], "lesson_stages": ["수업 준비", "탐구·질문", "글쓰기", "피드백"], "ai_modes": ["텍스트 생성", "파일 분석", "코딩"],
+    "languages": { "interface": "웹·데스크톱 한국어 인터페이스 제공", "generation_response": "여러 언어로 채팅 가능", "translation": "대화형 번역 가능", "voice": "공식 근거 미확인", "korean_official": true, "korean_quality": "K-12 현장검증 필요" },
+    "adoption": { "student_account": "학생 직접 사용은 연령·학교 정책 확인 필요", "pricing_detail": "일반 무료·유료 플랜; 교육 플랜은 대학 중심", "platforms": ["웹", "모바일"], "integrations": ["파일 업로드"], "difficulty": "보통" },
+    "safety": { "summary": "교육 페이지는 학습 모드·안전·개인정보 보호 원칙을 안내", "cautions": ["K-12 적용 근거 부족", "학생 계정·연령 확인"] },
+    "review": { "readiness": "참고", "reason": "소비자 Claude는 18세 이상만 사용할 수 있고 K-12 전용 운영 근거가 부족함", "evidence_level": "E2", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "공개목록 확인", "products": [{ "estimate_code": "202508214097244", "name": "클로드 Claude", "url": "https://www.s2b.kr/Edutech/product/productDetail.do?estimatecode=202508214097244" }] }, "source_ids": ["S004", "S031", "V001"]
+  },
+  {
+    "id": "microsoft-365-copilot-education", "provider": "Microsoft", "edition": "교육기관용 Copilot Chat·Teach·Study and Learn의 에디션별 적용 조건을 확인", "aliases": ["Microsoft 365 Copilot for Education"],
+    "secondary_categories": ["AI 튜터·챗봇", "리서치·자료정리"], "lesson_stages": ["수업 준비", "탐구·질문", "피드백"], "ai_modes": ["대화형 AI", "학습 지원", "교사 업무 지원"],
+    "languages": { "interface": "한국어 지원", "generation_response": "한국어 텍스트 입력·응답 지원", "translation": "기능별 확인 필요", "voice": "한국어 음성 지원", "korean_official": true, "korean_quality": "교육용 기능의 국내 현장검증 필요" },
+    "adoption": { "student_account": "제품별 학생 연령·학교 계정 조건 확인 필요", "pricing_detail": "교육기관 라이선스·에디션별 기능과 가격이 다름", "platforms": ["웹", "Microsoft 365"], "integrations": ["Microsoft 365"], "difficulty": "보통" },
+    "safety": { "summary": "교육기관 관리 환경에서 사용 조건을 제공", "cautions": ["학생 기능·연령·관리자 설정 확인"] },
+    "review": { "readiness": "조건부 활용", "reason": "교육용 Study and Learn은 13세 이상·관리자 연령 설정이 필요", "evidence_level": "E2", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S005", "S031", "V002"]
+  },
+  {
+    "id": "adobe-express-education", "provider": "Adobe", "edition": "일반 Adobe Express와 K-12 교육 라이선스의 계정·안전 설정을 구분", "aliases": ["Adobe Express for Education"],
+    "secondary_categories": ["이미지·그림", "영상", "음악·오디오"], "lesson_stages": ["창작·표현", "협업", "결과 공유"], "ai_modes": ["이미지·디자인·영상 생성 및 편집"],
+    "languages": { "interface": "27개 언어; 한국어 포함", "generation_response": "생성 기능별 지원 언어 차이는 별도 확인", "translation": "기능·플랜별 확인 필요", "voice": "기능별 확인 필요", "korean_official": true, "korean_quality": "생성 기능별 현장검증 필요" },
+    "adoption": { "student_account": "학급 코드, 학교·교육청 프로비저닝, SSO 지원", "pricing_detail": "K-12 교사·학생·관리자용 무료 교육 라이선스 제공", "platforms": ["웹", "모바일"], "integrations": ["Google Classroom", "SSO"], "difficulty": "입문" },
+    "safety": { "summary": "안전 검색, 교육용 개인정보 제어, 광고·팝업 없음", "cautions": ["생성 결과의 저작권·초상권·사실성 검토"] },
+    "review": { "readiness": "조건부 활용", "reason": "K-12 학생·교사용 무료 교육 계정과 학교 관리자 통제가 확인됐으나 국내 도입 조건을 추가 확인", "evidence_level": "E3", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S011", "S031", "V007"]
+  },
+  {
+    "id": "diffit", "provider": "Diffit", "secondary_categories": ["글쓰기·작문", "평가·퀴즈·피드백"], "lesson_stages": ["수업 준비", "개념 설명", "연습", "평가"], "ai_modes": ["읽기자료 생성·수준 조정·번역", "어휘·문항·활동지 생성"],
+    "languages": { "interface": "영어 중심; 공식 UI 언어 목록 미확인", "generation_response": "언어를 선택해 자료 생성·조정", "translation": "70개 이상 언어 번역 지원", "voice": "공식 근거 미확인", "korean_official": false, "korean_quality": "한국어 선택·출력 현장검증 필요" },
+    "adoption": { "student_account": "교사가 결과물을 문서·슬라이드·폼·PDF로 배포 가능", "pricing_detail": "핵심 무료 기능과 개인·학교 유료 플랜", "platforms": ["웹"], "integrations": ["Google Docs·Slides·Forms·Classroom", "Microsoft 365", "PDF"], "difficulty": "입문" },
+    "safety": { "summary": "교사 제작 중심으로 학생 직접 AI 대화 노출이 낮음", "cautions": ["미국 학년·표준을 국내 교육과정에 그대로 대응시키지 않도록 주의"] },
+    "review": { "readiness": "조건부 활용", "reason": "계정 등록은 18세 이상 교사·관리자에게 한정되며 한국어·국내 학년 수준 검증 필요", "evidence_level": "E3", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S015", "S031", "V009"]
+  },
+  {
+    "id": "curipod", "provider": "Curipod", "secondary_categories": ["평가·퀴즈·피드백", "글쓰기·작문"], "lesson_stages": ["동기유발", "토론·협업", "형성평가", "피드백"], "ai_modes": ["대화형 수업·활동 생성", "루브릭 기반 AI 피드백"],
+    "languages": { "interface": "영어 중심; 한국어 UI 목록 미확인", "generation_response": "모든 언어로 수업 생성 가능하다고 안내", "translation": "원클릭 다국어 번역 안내", "voice": "한국어 TTS 범위 미확인", "korean_official": false, "korean_quality": "한국어 생성·번역·피드백 현장검증 필요" },
+    "adoption": { "student_account": "교사가 개설한 수업에 참여; 독립형 학생 챗봇이 아님", "pricing_detail": "제한된 무료 플랜과 학교·교육청 맞춤 요금", "platforms": ["웹"], "integrations": ["슬라이드 변환"], "difficulty": "보통" },
+    "safety": { "summary": "교사 주도·모니터링, 학생 데이터로 모델을 학습하지 않으며 COPPA·FERPA·GDPR 준수 안내", "cautions": ["AI 피드백·한국어 루브릭 품질 검토"] },
+    "review": { "readiness": "조건부 활용", "reason": "18세 미만은 교사 PIN으로 참여하며 한국어 수업 품질과 유료 범위 확인 필요", "evidence_level": "E3", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S017", "S031", "V005"]
+  },
+  {
+    "id": "wayground", "provider": "Wayground", "aliases": ["Quizizz", "Wayground (구 Quizizz)"], "secondary_categories": ["코스웨어·LMS", "교사 업무자동화"], "lesson_stages": ["연습", "평가", "피드백", "복습"], "ai_modes": ["문항 생성·수정·번역·설명", "플래시카드 변환"],
+    "languages": { "interface": "35개 언어; 한국어 포함", "generation_response": "AI 생성 출력에 한국어 포함", "translation": "번역·이중언어 사전에 한국어 포함", "voice": "음성 기능은 언어별 제한", "korean_official": true, "korean_quality": "평가 문항·자동채점 현장검증 필요" },
+    "adoption": { "student_account": "교사가 과제·활동을 배포; 참여 방식은 활동·기관 설정별 상이", "pricing_detail": "무료·유료 플랜 공존; AI 기능은 플랜별 확인", "platforms": ["웹", "모바일"], "integrations": ["문항·활동·수업자료"], "difficulty": "입문" },
+    "safety": { "summary": "접근성·번역·설명 기능을 제공하지만 생성 결과 교사 검수 필요", "cautions": ["리브랜딩과 플랜별 AI 범위 확인"] },
+    "review": { "readiness": "조건부 활용", "reason": "전 연령 교육 서비스이나 13세 미만 계정·보호자 절차와 플랜별 AI 범위를 확인해야 함", "evidence_level": "E2", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S021", "S031", "V004"]
+  },
+  {
+    "id": "khanmigo", "provider": "Khan Academy", "secondary_categories": ["교사 업무자동화", "평가·퀴즈·피드백"], "lesson_stages": ["수업 준비", "개념 설명", "연습", "튜터링", "평가"], "ai_modes": ["교사 도구", "소크라테스식 튜터링", "글쓰기 코치"],
+    "languages": { "interface": "교사 도구·응답 언어 목록에 한국어 포함", "generation_response": "한국어 이해·응답 지원", "translation": "대화 중 언어 전환 가능", "voice": "공식 근거 미확인", "korean_official": true, "korean_quality": "한국어는 완전 품질검증 언어가 아님" },
+    "adoption": { "student_account": "학교·교육청 도입 또는 지역·구독 조건에 따라 제한", "pricing_detail": "교사 도구는 일부 지역 무료; 학생용은 개인 구독 또는 기관 파트너십", "platforms": ["웹"], "integrations": ["Khan Academy 콘텐츠", "Canvas"], "difficulty": "보통" },
+    "safety": { "summary": "학습 과정을 유도하도록 설계되고 교사·학생 역할별 기능을 구분", "cautions": ["미국 교육과정·영어 중심", "국내 학생 직접 활용 조건 확인"] },
+    "review": { "readiness": "조건부 활용", "reason": "독립 가입은 18세 이상이고 학생 접근은 보호자·제휴 학교 조건에 제한됨", "evidence_level": "E3", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S023", "S031", "V003"]
+  },
+  {
+    "id": "elevenlabs", "provider": "ElevenLabs", "secondary_categories": ["영상", "AI 튜터·챗봇"], "lesson_stages": ["자료 제작", "듣기 학습", "창작·표현", "결과 공유"], "ai_modes": ["텍스트 음성 변환", "음성 생성·더빙"],
+    "languages": { "interface": "한국어 제품 페이지 제공; 전체 UI 범위 확인 필요", "generation_response": "TTS 모델별 한국어 포함 다국어 지원", "translation": "더빙·음성 기능별 지원 언어 상이", "voice": "한국어 TTS·음성→텍스트 지원", "korean_official": true, "korean_quality": "교육용 발음과 고유명사 현장검증 필요" },
+    "adoption": { "student_account": "학생 직접 사용보다 교사 제작 또는 제한된 프로젝트 운영 권장", "pricing_detail": "무료 시작 및 유료 플랜; 교육 프로그램은 고등교육 중심", "platforms": ["웹", "API"], "integrations": ["오디오 파일", "API"], "difficulty": "보통" },
+    "safety": { "summary": "음성 복제·초상·동의 문제가 있어 교육적 사용 범위를 명확히 해야 함", "cautions": ["타인의 목소리를 동의 없이 복제하지 않기", "저작권·개인정보 지침"] },
+    "review": { "readiness": "참고", "reason": "개인 이용은 18세 이상이며 음성권·동의·학생 계정 검토가 선행되어야 함", "evidence_level": "E2", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S025", "S031", "V006"]
+  },
+  {
+    "id": "brisk-teaching", "provider": "Brisk Teaching", "secondary_categories": ["글쓰기·작문", "평가·퀴즈·피드백"], "lesson_stages": ["수업 준비", "자료 조정", "평가", "피드백"], "ai_modes": ["웹·문서 기반 자료 생성", "수준 조정", "번역", "글쓰기 피드백"],
+    "languages": { "interface": "한국어 웹 페이지 확인; 전체 UI 언어 목록 미공개", "generation_response": "50개 이상 언어로 수업·피드백·활동 생성", "translation": "50개 이상 언어 번역", "voice": "한국어 음질 확인 필요", "korean_official": false, "korean_quality": "한국어 선택·번역 품질 현장검증 필요" },
+    "adoption": { "student_account": "교사가 학생용 Brisk Boost 활동을 구성", "pricing_detail": "교사 무료 기능과 유료 교사·학교·교육청 플랜", "platforms": ["브라우저 확장", "웹"], "integrations": ["Google·Microsoft 문서", "웹페이지"], "difficulty": "입문" },
+    "safety": { "summary": "교육기관용 개인정보 센터와 학생용 교사 안내 활동 제공", "cautions": ["브라우저 확장 권한", "학생 문서 처리 범위 검토"] },
+    "review": { "readiness": "조건부 활용", "reason": "18세 미만은 보호자·교육기관 허가 하에 사용 가능하나 확장 권한·학생 데이터 처리를 검토해야 함", "evidence_level": "E2", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S027", "S031", "V008"]
+  },
+  {
+    "id": "schoolai", "provider": "SchoolAI", "secondary_categories": ["교사 업무자동화", "평가·퀴즈·피드백"], "lesson_stages": ["탐구·질문", "연습", "튜터링", "형성평가", "피드백"], "ai_modes": ["교사 설정형 AI 학습공간", "개인 튜터", "학습 모니터링·분석"],
+    "languages": { "interface": "영어 중심; 공식 UI 언어 목록 미확인", "generation_response": "Space 내 다국어 상호작용·번역 기능", "translation": "Live Translation 약 100개 언어 안내", "voice": "한국어 범위 미확인", "korean_official": false, "korean_quality": "한국어 번역·튜터 대화·음성 현장검증 필요" },
+    "adoption": { "student_account": "교사가 만든 Space 참여; 학생 포털·역할 기반 접근 제공", "pricing_detail": "제한된 무료 체험과 기관용 Pro·Scale", "platforms": ["웹", "브라우저 확장"], "integrations": ["SIS", "LMS"], "difficulty": "보통" },
+    "safety": { "summary": "FERPA·COPPA·SOC 2 Type 2 준수와 교사 실시간 모니터링 기능을 안내", "cautions": ["무료 범위 제한", "학생 업로드·대화 기록의 보존 정책 필요"] },
+    "review": { "readiness": "조건부 활용", "reason": "교사 통제형 AI 공간은 강점이나 공개 최소 연령을 확인하지 못해 기관 요금·데이터 정책과 함께 검토 필요", "evidence_level": "E3", "status": "조건부 공개" }, "procurement": { "s2b_public_listing": "홈 공개목록에서 미확인", "products": [] }, "source_ids": ["S029", "S031", "V010"]
+  }
+]

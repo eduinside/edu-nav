@@ -1,0 +1,49 @@
+[
+  { "id": "S001", "publisher": "OpenAI", "title": "A free version of ChatGPT built for teachers", "url": "https://openai.com/index/chatgpt-for-teachers/", "checked_at": "2026-07-24" },
+  { "id": "S002", "publisher": "OpenAI Help", "title": "How can educators get started with ChatGPT?", "url": "https://help.openai.com/en/articles/8313929", "checked_at": "2026-07-24" },
+  { "id": "L001", "publisher": "OpenAI Help", "title": "ChatGPT에서 언어 설정을 변경하는 방법", "url": "https://help.openai.com/ko-kr/articles/8357869-how-to-change-your-language-setting-in-chatgpt", "checked_at": "2026-07-24" },
+  { "id": "L002", "publisher": "OpenAI Help", "title": "ChatGPT Voice", "url": "https://help.openai.com/ko-kr/articles/20001274-chatgpt-voice", "checked_at": "2026-07-24" },
+  { "id": "S003", "publisher": "Google for Education", "title": "Gemini Built for Education", "url": "https://edu.google.com/gemini-built-for-education-higher-ed/", "checked_at": "2026-07-24" },
+  { "id": "L003", "publisher": "Google Help", "title": "Gemini web app availability", "url": "https://support.google.com/gemini/answer/13575153?rd=1", "checked_at": "2026-07-24" },
+  { "id": "S007", "publisher": "Google Help", "title": "Learn about NotebookLM", "url": "https://support.google.com/notebooklm/answer/16164461", "checked_at": "2026-07-24" },
+  { "id": "S008", "publisher": "Google Help", "title": "Use NotebookLM with a work or school Google account", "url": "https://support.google.com/notebooklm/answer/16337734", "checked_at": "2026-07-24" },
+  { "id": "L006", "publisher": "Google Help", "title": "Change output language in NotebookLM", "url": "https://support.google.com/notebooklm/answer/16261963?hl=ko", "checked_at": "2026-07-24" },
+  { "id": "S009", "publisher": "Canva", "title": "Canva for Teachers", "url": "https://www.canva.com/en_gb/education/teachers/", "checked_at": "2026-07-24" },
+  { "id": "S010", "publisher": "Canva Newsroom", "title": "Introducing Canva’s biggest education launch", "url": "https://www.canva.com/newsroom/news/canva-for-education-new-tools/", "checked_at": "2026-07-24" },
+  { "id": "L008", "publisher": "Canva Newsroom", "title": "Canva AI expands to 16 languages", "url": "https://www.canva.com/ko_kr/newsroom/news/canva-ai-languages/", "checked_at": "2026-07-24" },
+  { "id": "L009", "publisher": "Canva", "title": "온라인 문서 번역기", "url": "https://www.canva.com/ko_kr/features/document-translator/", "checked_at": "2026-07-24" },
+  { "id": "S013", "publisher": "MagicSchool", "title": "MagicSchool Pricing & Plans", "url": "https://www.magicschool.ai/pricing", "checked_at": "2026-07-24" },
+  { "id": "S014", "publisher": "MagicSchool", "title": "Terms of service", "url": "https://www.magicschool.ai/privacy-security/terms-of-service", "checked_at": "2026-07-24" },
+  { "id": "L011", "publisher": "MagicSchool", "title": "Frequently Asked Questions", "url": "https://www.magicschool.ai/faq", "checked_at": "2026-07-24" },
+  { "id": "S019", "publisher": "Kahoot!", "title": "Kahoot! for schools: Plans and pricing", "url": "https://kahoot.com/schools/plans/", "checked_at": "2026-07-24" },
+  { "id": "S020", "publisher": "Kahoot! Help", "title": "How to generate Kahoot! questions with AI", "url": "https://support.kahoot.com/hc/en-us/articles/40988856361747-How-to-generate-Kahoot-questions-with-AI", "checked_at": "2026-07-24" },
+  { "id": "L014", "publisher": "Kahoot! Help", "title": "Kahoot! 지원 언어", "url": "https://support.kahoot.com/hc/ja/articles/360015801953-Kahoot-%E3%81%AE%E5%AF%BE%E5%BF%9C%E8%A8%80%E8%AA%9E%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84", "checked_at": "2026-07-24" },
+  { "id": "S031", "publisher": "학교장터 S2B", "title": "S2B 에듀테크몰", "url": "https://www.s2b.kr/Edutech/main.do", "checked_at": "2026-07-24" },
+  { "id": "S004", "publisher": "Anthropic", "title": "Claude for Education", "url": "https://www.anthropic.com/education", "checked_at": "2026-07-24" },
+  { "id": "S005", "publisher": "Microsoft Education", "title": "Designing Microsoft 365 Copilot to empower educators, students, and staff", "url": "https://www.microsoft.com/en-us/education/blog/2025/10/designing-microsoft-365-copilot-to-empower-educators-students-and-staff/", "checked_at": "2026-07-24" },
+  { "id": "S011", "publisher": "Adobe", "title": "Adobe Express for Education", "url": "https://www.adobe.com/education/express/", "checked_at": "2026-07-24" },
+  { "id": "S015", "publisher": "Diffit", "title": "Diffit", "url": "https://web.diffit.me/", "checked_at": "2026-07-24" },
+  { "id": "S017", "publisher": "Curipod", "title": "Safe AI in Curipod", "url": "https://curipod.com/safe-ai-in-curipod", "checked_at": "2026-07-24" },
+  { "id": "S021", "publisher": "Wayground Help", "title": "Enhance Questions with Wayground AI", "url": "https://support.wayground.com/hc/en-us/articles/21979485586457-Enhance-Questions-with-Quizizz-AI-Actions", "checked_at": "2026-07-24" },
+  { "id": "S023", "publisher": "Khan Academy", "title": "Khanmigo for educators", "url": "https://www.khanacademy.org/khanmigo-for-educators", "checked_at": "2026-07-24" },
+  { "id": "S025", "publisher": "ElevenLabs", "title": "Bringing voice AI into the classroom with ElevenLabs", "url": "https://elevenlabs.io/blog/bringing-voice-ai-into-the-classroom-with-elevenlabs", "checked_at": "2026-07-24" },
+  { "id": "S027", "publisher": "Brisk Teaching", "title": "FAQs", "url": "https://www.briskteaching.com/faq", "checked_at": "2026-07-24" },
+  { "id": "S029", "publisher": "SchoolAI", "title": "Pricing for every district", "url": "https://schoolai.com/pricing", "checked_at": "2026-07-24" }
+  ,{ "id": "V001", "publisher": "Anthropic Help", "title": "Age assurance on Claude", "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude", "checked_at": "2026-07-24" }
+  ,{ "id": "V002", "publisher": "Microsoft Support", "title": "Study and Learn Agent overview", "url": "https://support.microsoft.com/en-us/education/copilot/study-learn-agent", "checked_at": "2026-07-24" }
+  ,{ "id": "V003", "publisher": "Khan Academy Help", "title": "How do I sign up for Khanmigo?", "url": "https://support.khanacademy.org/hc/en-us/articles/13982227159437-How-do-I-sign-up-for-Khanmigo", "checked_at": "2026-07-24" }
+  ,{ "id": "V004", "publisher": "Wayground", "title": "Terms of Service", "url": "https://wayground.com/tos", "checked_at": "2026-07-24" }
+  ,{ "id": "V005", "publisher": "Curipod", "title": "Terms of use", "url": "https://curipod.com/terms-of-use", "checked_at": "2026-07-24" }
+  ,{ "id": "V006", "publisher": "ElevenLabs", "title": "ElevenLabs Terms of Service (non-EEA)", "url": "https://elevenlabs.io/terms-of-use/", "checked_at": "2026-07-24" }
+  ,{ "id": "V007", "publisher": "Adobe Help", "title": "Adobe Express for Education 개요", "url": "https://helpx.adobe.com/kr/express/web/adobe-express-for-education/for-educators/education-overview.html", "checked_at": "2026-07-24" }
+  ,{ "id": "V008", "publisher": "Brisk Teaching", "title": "Terms of Use - User Guidelines and Policies", "url": "https://www.briskteaching.com/privacy/terms", "checked_at": "2026-07-24" }
+  ,{ "id": "V009", "publisher": "Diffit", "title": "Terms of Service", "url": "https://web.diffit.me/terms-of-service", "checked_at": "2026-07-24" }
+  ,{ "id": "V010", "publisher": "SchoolAI", "title": "Privacy Notices", "url": "https://schoolai.com/trust/privacy-notices", "checked_at": "2026-07-24" }
+  ,{ "id": "R001", "publisher": "팀플백", "title": "팀플백 핵심 제품", "url": "https://www.teampl100.com/", "checked_at": "2026-07-24" }
+  ,{ "id": "R002", "publisher": "EDZIP", "title": "자작자작 도입기: AI와 함께하는 글쓰기 수업 이야기", "url": "https://kr.object.ncloudstorage.com/moe/deep-review/68ba88ec6d7b752b1727a7cb_11d45b65-f276-4c31-b210-04c227f4574e_2025%20%EC%97%90%EB%93%80%EC%A7%91%209%EC%9B%94%20%EC%8B%AC%EC%B8%B5%EB%A6%AC%EB%B7%B0%28%EC%9E%90%EC%9E%91%EC%9E%90%EC%9E%91%29.pdf", "checked_at": "2026-07-24" }
+  ,{ "id": "R003", "publisher": "매쓰홀릭", "title": "학교 선생님을 위한 AI 도우미", "url": "https://school.matholic.com/", "checked_at": "2026-07-24" }
+  ,{ "id": "R004", "publisher": "Speak", "title": "원어민 없는 프리토킹 수업, AI 튜터", "url": "https://www.speak.com/ko/ai-tutor", "checked_at": "2026-07-24" }
+  ,{ "id": "R005", "publisher": "망고보드", "title": "망고보드 공식 홈페이지", "url": "https://www.mangoboard.net/", "checked_at": "2026-07-24" }
+  ,{ "id": "R006", "publisher": "망고보드", "title": "망고보드 요금제", "url": "https://www.mangoboard.net/MangoPrice.do?booster=on", "checked_at": "2026-07-24" }
+  ,{ "id": "R007", "publisher": "천재교과서", "title": "천재 AI 디지털 교육자료 지원센터", "url": "https://support.aitextbook.co.kr/support/news/notice/84", "checked_at": "2026-07-24" }
+]
