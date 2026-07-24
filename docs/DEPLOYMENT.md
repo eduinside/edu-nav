@@ -12,6 +12,7 @@
 4. Cloudflare Pages에서 정적 파일을 업로드할 때 빌드 명령은 비워 두고, 출력 디렉터리는 프로젝트 루트로 설정한다.
 5. Pretendard(jsDelivr), Lucide(unpkg), Google S2 favicon 접근이 학교망에서 가능한지 확인한다. 운영 안정성이 필요하면 배포 전에 로컬 자산으로 이전한다.
 6. 배포에 필요한 것은 `index.html`, `assets/`, `data/`뿐이다. 다음은 런타임에 불필요하므로 업로드에서 제외한다: `docs/`, `scripts/`, `node_modules/`, `assets/brand/compass-gpt-master.png`(원본 마스터), `assets/**/README.md`.
+7. `_redirects`에 `edu-nav.pages.dev` → `nav.dgedu.link` 301 리다이렉트가 있다. 커스텀 도메인이 Pages 프로젝트에 연결되기 전까지는 이 리다이렉트가 방문자를 아직 연결되지 않은 도메인으로 보내 접속 실패를 일으킨다 — 도메인 연결 전에는 비활성화하거나, 도메인 연결과 함께 배포한다.
 
 ## 정기 운영 기준
 
